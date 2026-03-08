@@ -38,7 +38,7 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 12px;
     filter: blur();
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .MyCode:hover{
@@ -86,4 +86,46 @@ p{
     border-radius: 12px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.My3DModels {
+    background-color: rgb(91, 186, 199);
+    height: 6vh;
+    width: 15vh;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 12px;
+    filter: blur();
+    transition: all 0.2s ease-in-out;
+}
+
+.My3DModels:hover {
+    transform: scale(1.05);
+}
+
+.My3DModels:active {
+    transform: scale(0.995);
+}
+
+.Divider {
+    scale: 0.0001;
+}
+
+.MyTextures {
+    background-color: rgb(40, 196, 175);
+    height: 6vh;
+    width: 15vh;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 12px;
+    filter: blur();
+    transition: all 0.2s ease-in-out;
+}
+
+.MyTextures:hover {
+    transform: scale(1.05);
+}
+
+.MyTextures:active {
+    transform: scale(0.995);
 }
